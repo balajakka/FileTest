@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features ="/Users/balajakka/FileTest/src/test/java/DryRun/",
+        features ="/Users/balajakka/FileTest/src/test/java/Features/",
         glue={"StepDefinitions"}
 )
 
