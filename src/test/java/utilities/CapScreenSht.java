@@ -1,4 +1,4 @@
-package Utilities;
+package utilities;
 
 import org.codehaus.plexus.util.FileUtils;
 import org.openqa.selenium.OutputType;
@@ -13,7 +13,7 @@ import java.io.IOException;
  */
 public class CapScreenSht {
 
-    public void CapScrSht(WebDriver driver, String screenShotName){
+    public void capScrSht(WebDriver driver, String screenShotName){
 
         TakesScreenshot ts = (TakesScreenshot)driver;
         File source = ts.getScreenshotAs(OutputType.FILE);

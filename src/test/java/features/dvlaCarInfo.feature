@@ -4,7 +4,7 @@ Feature: Access & Verify DVLA site
     When I access DVLA vehicle information page
     Then I see DVLA vehicle information page
 
-  Scenario: DVLA vehicle information page
+  Scenario: DVLA Car details page
     Given I am a chrome user
     When I access DVLA vehicle information page
     And I click Start Now
